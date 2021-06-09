@@ -7,8 +7,12 @@ h1 {
     margin: 0px;
     font-size: 24px;
 }
+h2 {
+    margin: 4px;
+    font-size: 22px;
+}
 p {
-    margin: 5px;
+    margin: 8px;
     font-size: 20px;
 }
 table, th, td {
@@ -18,6 +22,20 @@ table, th, td {
 th, td {
     padding: 15px;
     text-align: center;
+}
+
+footer {
+    margin: 0px;
+    color: white;
+    background-color: #333333;
+}
+
+pre {
+    margin: 0px;
+    color: white;
+    background-color: #333333;
+    font-size: 16px;
+    font-family: "Trebuchet MS";
 }
 
 ul {
@@ -42,4 +60,28 @@ li a {
   
 li a:hover {
     background-color: #111111;
+}
+
+.flinks a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+.flinks a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+.flinks a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+.flinks a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
 }
