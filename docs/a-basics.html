@@ -83,8 +83,9 @@
             </h2>
 
             <p>
-                auto - lets the compiler choose the variable type <br>
-                func - lets the compiler choose the return type of a function
+                func - lets the compiler choose the return type of a function <br>
+                var - lets the compiler choose the variable type, can override already declared vars, always declares globally <br>
+                let - lets the compiler choose the variable type, cannot override other vars, always declares locally
             </p>
 
 
@@ -115,7 +116,7 @@
             </h1>
 
             <p>
-                (if you know C++ opreators, you can skip this as they're essentially the same) <br>
+                (if you know C++ operators, you can skip this as they're essentially the same) <br>
                 + - addition <br>
                 - - subtraction <br>
                 * - multiplication <br> 
@@ -123,6 +124,7 @@
                 % - modulo <br>
                 <br>
                 =  - set <br>
+                := - declare and set (if already declared, just set) <br>
                 += - add and set <br>
                 -= - subtract and set <br>
                 *= - multiply and set <br>
