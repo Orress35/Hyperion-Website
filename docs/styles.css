@@ -18,6 +18,11 @@ mark.string {
     background: none;
 }
 
+mark.comment {
+    color: #808080;
+    background: none;
+}
+
 body {
     background-color: black;
     font-family: "Trebuchet MS", sans-serif;

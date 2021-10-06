@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hyperion Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Hyperion documentation">
+        <meta name="description" content="Website for the Hyperion programming language">
+        <meta name="author" content="Orress">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="top-menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="docs.html">Documentation</a></li>
+                <li><a href="../get.html">Download</a></li>
+            </ul>
+        </div>
+        <div class="main" style="background-color:black;color:white;padding:20px;">
+            <h1>
+                Variables and types
+            </h1>
+            <p>
+                A variable is a piece of data stored in the process memory. To declare a variable you have to specify the variable <b>type</b>, <b>name</b> and <b>value</b>:
+            </p>
+        </div>
+<pre>
+<mark class="keyword">int</mark> <mark class="label">i</mark> = <mark class="number">8</mark>            <mark class="comment">// integer (whole number) variable with name i and value 8</mark>
+<mark class="keyword">float</mark> <mark class="label">f</mark> = <mark class="number">1.2</mark>     <mark class="comment">// floating point (decimal) variable with name f and value 1.2</mark>
+</pre>
+        <div class="main" style="background-color:black;color:white;padding:20px;">
+            <p>
+                Currently, there's 10 primitive types in Hyperion: <br> <br>
+            </p>
+            <h1>
+                Integers (3):
+            </h1>
+            <p>
+                short - 16-bit integer (-32767 to 32767) <br>
+                int - 32-bit integer (-2147483647 to 2147483647) <br>
+                long - 64-bit integer (-9223372036854775807 to 9223372036854775807)
+            </p>
+            <h1>
+                Float (2):
+            </h1>
+            <p>
+                float - 32-bit floating point number (-3.4e+38 to 3.4e+38) <br>
+                double - 64-bit floating point number (-1.8e+308 to 1.8e+308)
+            </p>
+            <h1>
+                Binary (2):
+            </h1>
+            <p>
+                bit - 0 / 1 <br>
+                byte - 8-bit number (-127 to 127)
+            </p>
+            <h1>
+                Text (2):
+            </h1>
+            <p>
+                char - a single ASCII character <br>
+                string - a sequence of characters
+            </p>
+            <h1>
+                Logic (1):
+            </h1>
+            <p>
+                bool - true / false
+            </p>
+        </div>
+    </body>
+</html>
