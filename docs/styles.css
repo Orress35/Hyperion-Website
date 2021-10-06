@@ -1,24 +1,49 @@
+mark.keyword {
+    color:#cb612d;
+    background: none;
+}
+
+mark.label {
+    color:#ffc66d;
+    background: none;
+}
+
+mark.number {
+    color: #9876aa;
+    background: none;
+}
+
+mark.string {
+    color: #568650;
+    background: none;
+}
+
 body {
-    background-color: white;
+    background-color: black;
     font-family: "Trebuchet MS", sans-serif;
     margin: 0;
 }
+
 h1 {
     margin: 0;
     font-size: 25px;
 }
+
 h2 {
     margin: 4px;
     font-size: 21px;
 }
+
 p {
     margin: 8px;
     font-size: 18px;
 }
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
+
 th, td {
     padding: 15px;
     text-align: center;
@@ -31,8 +56,10 @@ footer {
 }
 
 pre {
-    margin: 8px 0 0;
+    margin: 0;
     font-size: 24px;
+    color: white;
+    background-color: #2b2b2b;
     font-family: "Trebuchet MS", sans-serif;
 }
 
