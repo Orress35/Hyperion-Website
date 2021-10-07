@@ -1,0 +1,6 @@
+package label
+
+sub start (
+    println("hello world")
+    exit(0)
+)
